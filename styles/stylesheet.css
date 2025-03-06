@@ -1,4 +1,30 @@
-aside{
-    display: inline;
-    position: fixed;
+.container{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.links{
+    color: rgb(16, 174, 206);
+}
+footer p{
+    
+    text-wrap: wrap;
+}
+footer{
+    background-color: rgb(65, 62, 62);
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.footer-navbar{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+div{
+    padding-top: 20px;
 }
