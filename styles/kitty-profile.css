@@ -15,6 +15,7 @@ font-size: 20px;
 header nav{
 background-color: rgb(236, 230, 230);
 padding: 20px;
+margin-bottom: 20px;
 }
 header nav a{
     color: black;
@@ -29,22 +30,19 @@ header nav a{
 section{
     padding: 10px;
 }
-
-.container{
-    display: inline;
+.paragraph{
+    background-color: rgb(14, 160, 189);
+    padding: 30px;
+    color: white;
+    margin: 20px;
 }
 
-.links{
-    color: rgb(14, 160, 189);
-}
-footer p{
-    text-wrap: wrap;
-}
 footer{
     background-color: rgb(65, 62, 62);
     text-align: center;
     padding: 40px;
     color: white;
+    margin-top: 20px;
     
 }
  
@@ -52,10 +50,16 @@ footer{
     color: white;
     padding: 10px;
     text-decoration: none;
+    
 }
 .font-color{
     color: rgb(14, 160, 189);
 }
 .footer-div{
     padding-top: 20px;
+}
+.image{
+    display: block;
+    margin: auto;
+
 }
