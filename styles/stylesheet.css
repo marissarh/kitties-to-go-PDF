@@ -33,22 +33,26 @@ section{
     padding: 10px;
     font-family: sans-serif;
     font-size: 15px;
+    flex-wrap: wrap;
 }
+.body{
+    margin: 60px;
 
+}
 .links{
     color: rgb(14, 160, 189);
 }
-footer p{
-    text-wrap: wrap;
+.container{
+    float: right;
+    padding-bottom: 150px;
+    
 }
 footer{
     background-color: rgb(65, 62, 62);
     text-align: center;
-    padding: 40px;
+    padding: 20px;
     color: white;
-    
 }
- 
 .footer-navbar{
     color: white;
     padding: 10px;
