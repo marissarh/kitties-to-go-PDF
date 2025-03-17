@@ -1,4 +1,13 @@
 
+.hidden{
+    position: relative;
+    left: -10000px;
+    top:auto;
+}
+.hidden:focus{
+    left: 0;
+
+}
 header section{
     background-color: rgb(14, 160, 189);
     color: white;
@@ -24,6 +33,9 @@ header nav a{
     text-decoration: none;
     font-weight: bolder;
     margin: 8px;
+    padding: .7rem;
+    margin: .7rem;
+    
 }
 .header-section{
     padding-left: 200px;
@@ -41,6 +53,7 @@ section{
 }
 .links{
     color: rgb(14, 160, 189);
+    
 }
 .container{
     float: right;
