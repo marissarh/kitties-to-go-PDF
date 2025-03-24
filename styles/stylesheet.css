@@ -56,6 +56,9 @@ header nav a{
     background-color: rgb(171, 199, 223);
     background-size: cover;
 }
+.gradient{
+    background: linear-gradient( to right, rgb(182, 182, 222), rgb(173, 114, 173) 40%);
+}
     
 section{
     padding: 10px;
