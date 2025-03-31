@@ -71,15 +71,15 @@ header nav a{
     background-size: cover;
 }
 
-/*@media screen and (max-width: 700px) {
+@media screen and (min-width: 576px) {
     .background {
-        display: block;
-        float: none;
+        width: 100%;
     }  
-}*/
+}
 
 .gradient{
     background: linear-gradient( to right, rgb(182, 182, 222), rgb(173, 114, 173) 40%);
+
 }
 
     
@@ -114,6 +114,11 @@ section{
     }
 }
 
+@media screen and (min-width: 576px){
+    .kittens-in-field-img{
+        width: 50%;
+    }
+}
 footer{
     background-color: rgb(65, 62, 62);
     text-align: center;
