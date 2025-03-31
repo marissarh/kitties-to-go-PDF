@@ -49,7 +49,7 @@ header nav a{
     padding-left: 200px;
 }
 
-@media all and (max-width: 576px){
+@media screen and (min-width: 576px){
     header, footer{
         width: 100%;
     }
@@ -125,10 +125,12 @@ footer{
     padding: 20px;
     color: white;
 }
+
 .footer-navbar{
     color: white;
     padding: 10px;
     text-decoration: none;
+    
 }
 .font-color{
     color: rgb(14, 160, 189);
